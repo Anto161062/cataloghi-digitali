@@ -9,7 +9,7 @@
             font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            background-color: #f4f4f4;
+            background: url('background-cataloghi.jpg') no-repeat center center/cover;
             color: #333;
         }
         .container {
@@ -18,38 +18,34 @@
             overflow: hidden;
         }
         header {
-            background: #333;
+            background: #222;
             color: #fff;
-            padding: 20px 0;
+            padding: 25px 0;
             text-align: center;
-            font-size: 24px;
+            font-size: 26px;
+            font-weight: bold;
+            text-transform: uppercase;
         }
         .hero {
-            background: url('catalogo-example.jpg') no-repeat center center/cover;
+            background: rgba(0, 0, 0, 0.6);
             color: #fff;
-            padding: 50px 20px;
+            padding: 60px 20px;
             text-align: center;
         }
         .hero h1 {
-            margin: 0;
-            font-size: 36px;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            font-size: 40px;
+            margin-bottom: 10px;
         }
         .hero p {
-            font-size: 18px;
-            text-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+            font-size: 22px;
         }
         .content {
-            padding: 40px 20px;
+            padding: 50px 20px;
             text-align: center;
         }
         .content h2 {
-            font-size: 28px;
-            color: #007bff;
-        }
-        .content p {
-            font-size: 18px;
-            margin-bottom: 20px;
+            font-size: 30px;
+            color: #ff6600;
         }
         .packages {
             display: flex;
@@ -58,42 +54,48 @@
         }
         .package {
             background: #fff;
-            padding: 20px;
-            margin: 10px;
+            padding: 30px;
+            margin: 15px;
             width: 30%;
-            box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.3);
+            box-shadow: 0px 5px 20px rgba(0, 0, 0, 0.3);
             text-align: center;
-            border-radius: 10px;
+            border-radius: 15px;
             transform: scale(1);
             transition: transform 0.3s;
         }
         .package:hover {
-            transform: scale(1.05);
+            transform: scale(1.08);
         }
         .package h3 {
             color: #333;
+            font-size: 22px;
         }
         .cta {
             text-align: center;
-            margin-top: 20px;
+            margin-top: 30px;
         }
         .cta a {
             display: inline-block;
-            padding: 15px 30px;
-            background: #007bff;
+            padding: 18px 35px;
+            background: #ff6600;
             color: #fff;
             text-decoration: none;
-            font-size: 18px;
-            border-radius: 5px;
+            font-size: 20px;
+            border-radius: 8px;
+            margin: 10px;
+        }
+        .cta a:hover {
+            background: #e05500;
         }
         .testimonials {
-            background: #f8f9fa;
-            padding: 30px;
+            background: #fff;
+            padding: 40px;
             text-align: center;
+            border-radius: 10px;
         }
         .testimonials p {
             font-style: italic;
-            font-size: 18px;
+            font-size: 20px;
             margin-bottom: 10px;
         }
     </style>
@@ -105,7 +107,7 @@
     
     <div class="hero">
         <h1>Il tuo catalogo digitale in 48 ore!</h1>
-        <p>Presenta i tuoi prodotti in modo moderno e interattivo con QR Code e link tracciabili.</p>
+        <p>Presenta i tuoi prodotti con stile, innovazione e interattività.</p>
     </div>
     
     <div class="container">
@@ -142,10 +144,11 @@
 
         <div class="cta">
             <h2>Contattaci ora</h2>
-            <p>WhatsApp: <a href="https://wa.me/393717771328">+39 371 7771328</a></p>
-            <p>Email: <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mysenza1@gmail.com">mysenza1@gmail.com</a></p>
+            <a href="https://wa.me/393717771328">WhatsApp: +39 371 7771328</a>
+            <a href="https://mail.google.com/mail/?view=cm&fs=1&to=mysenza1@gmail.com">Email: mysenza1@gmail.com</a>
             <a href="https://anto161062.github.io/catalogo/">Scarica un esempio</a>
         </div>
     </div>
 </body>
 </html>
+
